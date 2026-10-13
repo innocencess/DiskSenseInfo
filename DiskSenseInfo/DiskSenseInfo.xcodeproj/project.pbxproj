@@ -1,0 +1,40 @@
+// !$*UTF8*$!
+{ archiveVersion = 1; classes = {}; objectVersion = 56; objects = {
+1C047A849CF4BDCA74913E8B = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppModel.swift"; sourceTree = "<group>"; };
+3B1BD0D3E3B196288B17828C = { isa = PBXBuildFile; fileRef = 1C047A849CF4BDCA74913E8B; };
+79BC2F42DFE66343001B2CCD = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collector.swift"; sourceTree = "<group>"; };
+473C7BA810D4817D4FBE5480 = { isa = PBXBuildFile; fileRef = 79BC2F42DFE66343001B2CCD; };
+561D63B0FA4196679EB7B5AA = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Core.swift"; sourceTree = "<group>"; };
+327D94EAC74E1D0DB32BBE12 = { isa = PBXBuildFile; fileRef = 561D63B0FA4196679EB7B5AA; };
+EA5C6E63CB33654ABC11012A = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DiskSenseInfoApp.swift"; sourceTree = "<group>"; };
+90BE11C45F3CD4385A0DD6A7 = { isa = PBXBuildFile; fileRef = EA5C6E63CB33654ABC11012A; };
+2B97935E2984DBD78A9F4AD5 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views.swift"; sourceTree = "<group>"; };
+4AF090DF56D724E72C1CAF6A = { isa = PBXBuildFile; fileRef = 2B97935E2984DBD78A9F4AD5; };
+AF47016413B2904FA2EECE2E = { isa = PBXFileReference; lastKnownFileType = file; path = "AppIcon.icns"; sourceTree = "<group>"; };
+01AC740439D8BEF3C6936907 = { isa = PBXBuildFile; fileRef = AF47016413B2904FA2EECE2E; };
+718750F5E59E3D2944D9F24E = { isa = PBXFileReference; lastKnownFileType = file; path = "SMARTMONTOOLS-LICENSE.txt"; sourceTree = "<group>"; };
+EC65E72833C966A3E1FF0B14 = { isa = PBXBuildFile; fileRef = 718750F5E59E3D2944D9F24E; };
+CFAB0EA4D182686438557748 = { isa = PBXFileReference; lastKnownFileType = file; path = "drivedb.h"; sourceTree = "<group>"; };
+6BB0C96DEEC28D1C036A070D = { isa = PBXBuildFile; fileRef = CFAB0EA4D182686438557748; };
+7B676C2B949B4FECECC990BC = { isa = PBXFileReference; lastKnownFileType = file; path = "smartctl"; sourceTree = "<group>"; };
+C2D2E51C7D2DDA5CEAC23FFD = { isa = PBXBuildFile; fileRef = 7B676C2B949B4FECECC990BC; };
+CB0A2C35D078950F696455DB = { isa = PBXFileReference; lastKnownFileType = file; path = "smartmontools-7.5-source.tar.gz"; sourceTree = "<group>"; };
+F4059E6A0BBE8E85804087B5 = { isa = PBXBuildFile; fileRef = CB0A2C35D078950F696455DB; };
+7D1043473D55BFA90E8530D3 = { isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiskSenseInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+BCE16DD0260827ECF338C787 = { isa = PBXGroup; path = Sources; sourceTree = "<group>"; children = (1C047A849CF4BDCA74913E8B,79BC2F42DFE66343001B2CCD,561D63B0FA4196679EB7B5AA,EA5C6E63CB33654ABC11012A,2B97935E2984DBD78A9F4AD5); };
+0189424A5A60FED329FA868E = { isa = PBXGroup; path = Resources; sourceTree = "<group>"; children = (AF47016413B2904FA2EECE2E,718750F5E59E3D2944D9F24E,CFAB0EA4D182686438557748,7B676C2B949B4FECECC990BC,CB0A2C35D078950F696455DB); };
+FBDC4F23F93125BBEEAE800C = { isa = PBXGroup; name = Products; sourceTree = "<group>"; children = (7D1043473D55BFA90E8530D3); };
+B28B7AF69320201D1CF206EB = { isa = PBXGroup; sourceTree = "<group>"; children = (BCE16DD0260827ECF338C787,0189424A5A60FED329FA868E,FBDC4F23F93125BBEEAE800C); };
+D3C3E067FC1BBCCEAA4D9313 = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (3B1BD0D3E3B196288B17828C,473C7BA810D4817D4FBE5480,327D94EAC74E1D0DB32BBE12,90BE11C45F3CD4385A0DD6A7,4AF090DF56D724E72C1CAF6A); runOnlyForDeploymentPostprocessing = 0; };
+ECE2D868E17AEF81A05610A3 = { isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (01AC740439D8BEF3C6936907,EC65E72833C966A3E1FF0B14,6BB0C96DEEC28D1C036A070D,C2D2E51C7D2DDA5CEAC23FFD,F4059E6A0BBE8E85804087B5); runOnlyForDeploymentPostprocessing = 0; };
+BEE832DE65DB5CA7507F7EF9 = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+DD5B8625DA034B4C31620C9D = { isa = PBXShellScriptBuildPhase; buildActionMask = 2147483647; files = (); inputPaths = (); outputPaths = (); runOnlyForDeploymentPostprocessing = 0; shellPath = /bin/bash; shellScript = "chmod 755 \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/smartctl\"\nif [ -n \"${EXPANDED_CODE_SIGN_IDENTITY:-}\" ]; then\n/usr/bin/codesign --force --sign \"$EXPANDED_CODE_SIGN_IDENTITY\" --options runtime \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/smartctl\"\nfi\n"; };
+89E1FD6268CC0F221A2BE178 = { isa = XCBuildConfiguration; name = Debug; buildSettings = { MACOSX_DEPLOYMENT_TARGET = 13.0; SDKROOT = macosx; }; };
+7082CC0B6FC1282FCEABD07A = { isa = XCBuildConfiguration; name = Debug; buildSettings = { PRODUCT_NAME = DiskSenseInfo; PRODUCT_BUNDLE_IDENTIFIER = app.diskpulse.monitor; INFOPLIST_FILE = Info.plist; SWIFT_VERSION = 5.0; ARCHS = "arm64 x86_64"; ONLY_ACTIVE_ARCH = NO; CODE_SIGN_STYLE = Automatic; CODE_SIGN_IDENTITY = "-"; ENABLE_APP_SANDBOX = NO; ENABLE_HARDENED_RUNTIME = YES; ENABLE_USER_SCRIPT_SANDBOXING = NO; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; }; };
+E6DE6C99132752C914FEF632 = { isa = XCBuildConfiguration; name = Release; buildSettings = { MACOSX_DEPLOYMENT_TARGET = 13.0; SDKROOT = macosx; }; };
+639A7CA24D39909E713B47F7 = { isa = XCBuildConfiguration; name = Release; buildSettings = { PRODUCT_NAME = DiskSenseInfo; PRODUCT_BUNDLE_IDENTIFIER = app.diskpulse.monitor; INFOPLIST_FILE = Info.plist; SWIFT_VERSION = 5.0; ARCHS = "arm64 x86_64"; ONLY_ACTIVE_ARCH = NO; CODE_SIGN_STYLE = Automatic; CODE_SIGN_IDENTITY = "-"; ENABLE_APP_SANDBOX = NO; ENABLE_HARDENED_RUNTIME = YES; ENABLE_USER_SCRIPT_SANDBOXING = NO; SWIFT_OPTIMIZATION_LEVEL = "-O"; }; };
+BC7E287B75C6D3E574547D08 = { isa = XCConfigurationList; buildConfigurations = (89E1FD6268CC0F221A2BE178,E6DE6C99132752C914FEF632); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+4FE71F2A87991572F562EAA3 = { isa = XCConfigurationList; buildConfigurations = (7082CC0B6FC1282FCEABD07A,639A7CA24D39909E713B47F7); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+0E8A3AD980EC179856012B7E = { isa = PBXNativeTarget; buildConfigurationList = 4FE71F2A87991572F562EAA3; buildPhases = (D3C3E067FC1BBCCEAA4D9313,BEE832DE65DB5CA7507F7EF9,ECE2D868E17AEF81A05610A3,DD5B8625DA034B4C31620C9D); buildRules = (); dependencies = (); name = DiskSenseInfo; productName = DiskSenseInfo; productReference = 7D1043473D55BFA90E8530D3; productType = "com.apple.product-type.application"; };
+98F54143AB4E86B28C3AFEE0 = { isa = PBXProject; attributes = { LastUpgradeCheck = 1600; }; buildConfigurationList = BC7E287B75C6D3E574547D08; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en,"zh-Hant",Base); mainGroup = B28B7AF69320201D1CF206EB; productRefGroup = FBDC4F23F93125BBEEAE800C; projectDirPath = ""; projectRoot = ""; targets = (0E8A3AD980EC179856012B7E); };
+}; rootObject = 98F54143AB4E86B28C3AFEE0; }

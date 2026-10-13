@@ -1,0 +1,7 @@
+Tool: built-in image_gen. Selected artifact: initial standalone C icon (the subsequent cleanup variant was not selected).
+Reference: user-selected bottom-left C from the minimal icon comparison board.
+
+Final asset prompt:
+Use case: logo-brand / precise-object-edit. Reference is a four-option icon comparison board. Produce ONLY the selected bottom-left C icon as a standalone production macOS app icon for DiskSenseInfo. Preserve C's exact identity: very light periwinkle/lavender frosted rounded-square tile, a single simple flat deep indigo disk circle centered on the tile, small white center hole, a tiny lavender status dot on the lower-right area of the disk. Contemporary minimal macOS 27 style, soft translucent glass tile, smooth edges, quiet diffuse lighting, no thick 3D, no metal hardware, no glow, no screws, no text. Square image canvas, app icon rounded-square tile occupies about 90% of canvas with a consistent small margin. Background OUTSIDE the rounded-square tile must be genuinely transparent alpha, no opaque backdrop, no labels C, no board title, no other icons. Keep silhouette crisp and high contrast at 32px. No cast shadow beyond the outer tile footprint. Deliver one clean high-resolution square app icon.
+
+Original PNG is preserved. Standard size conversion only, via Artwork/PackageIcon.swift; icns packaging via iconutil. Rebuild with ./rebuild-icon.sh.

@@ -1,0 +1,511 @@
+{
+  "disks" : [
+    {
+      "bus" : "Apple Fabric",
+      "capacity" : 2001111162880,
+      "controllerVendor" : "Apple Inc. (0x106B)",
+      "device" : "redacted",
+      "diagnostics" : [
+        "Raw payload and diagnostic text omitted for privacy"
+      ],
+      "features" : [
+        "nvme_version: {\n  \"value\" : {\n    \"string\" : \"<1.2\",\n    \"value\" : 0\n  }\n}",
+        "smart_support: {\n  \"value\" : {\n    \"available\" : true,\n    \"enabled\" : true\n  }\n}",
+        "nvme_optional_admin_commands: {\n  \"value\" : {\n    \"command_and_feature_lockdown\" : false,\n    \"directives\" : false,\n    \"doorbell_buffer_config\" : false,\n    \"firmware_download\" : true,\n    \"format_nvm\" : false,\n    \"get_lba_status\" : false,\n    \"mi_send_receive\" : false,\n    \"namespace_management\" : false,\n    \"other\" : 0,\n    \"security_send_receive\" : false,\n    \"self_test\" : false,\n    \"value\" : 4,\n    \"virtualization_management\" : false\n  }\n}",
+        "nvme_optional_nvm_commands: {\n  \"value\" : {\n    \"compare\" : false,\n    \"copy\" : false,\n    \"dataset_management\" : true,\n    \"other\" : 0,\n    \"reservations\" : false,\n    \"save_select_feature_nonzero\" : false,\n    \"timestamp\" : false,\n    \"value\" : 4,\n    \"verify\" : false,\n    \"write_uncorrectable\" : false,\n    \"write_zeroes\" : false\n  }\n}"
+      ],
+      "firmware" : "241.0.12",
+      "health" : "normal",
+      "id" : "Disk-1",
+      "identityReliable" : true,
+      "internalDisk" : true,
+      "kind" : "NVMe SSD",
+      "manufacturer" : "",
+      "metrics" : [
+        {
+          "failed" : false,
+          "id" : "critical_warning",
+          "name" : "Critical Warning",
+          "raw" : "0",
+          "unit" : ""
+        },
+        {
+          "failed" : false,
+          "id" : "temperature",
+          "name" : "Temperature",
+          "raw" : "37",
+          "unit" : "°C"
+        },
+        {
+          "failed" : false,
+          "id" : "available_spare",
+          "name" : "Available Spare",
+          "raw" : "100",
+          "unit" : "%"
+        },
+        {
+          "failed" : false,
+          "id" : "available_spare_threshold",
+          "name" : "Spare Threshold",
+          "raw" : "99",
+          "unit" : "%"
+        },
+        {
+          "failed" : false,
+          "id" : "percentage_used",
+          "name" : "Percentage Used",
+          "raw" : "0",
+          "unit" : "%"
+        },
+        {
+          "failed" : false,
+          "id" : "data_units_read",
+          "name" : "Data Units Read",
+          "raw" : "10331342",
+          "unit" : ""
+        },
+        {
+          "failed" : false,
+          "id" : "data_units_written",
+          "name" : "Data Units Written",
+          "raw" : "14873993",
+          "unit" : ""
+        },
+        {
+          "failed" : false,
+          "id" : "host_reads",
+          "name" : "Host Read Commands",
+          "raw" : "251103535",
+          "unit" : ""
+        },
+        {
+          "failed" : false,
+          "id" : "host_writes",
+          "name" : "Host Write Commands",
+          "raw" : "324324052",
+          "unit" : ""
+        },
+        {
+          "failed" : false,
+          "id" : "controller_busy_time",
+          "name" : "Controller Busy Time",
+          "raw" : "0",
+          "unit" : "min"
+        },
+        {
+          "failed" : false,
+          "id" : "power_cycles",
+          "name" : "Power Cycles",
+          "raw" : "280",
+          "unit" : ""
+        },
+        {
+          "failed" : false,
+          "id" : "power_on_hours",
+          "name" : "Power On Hours",
+          "raw" : "67",
+          "unit" : "h"
+        },
+        {
+          "failed" : false,
+          "id" : "unsafe_shutdowns",
+          "name" : "Unsafe Shutdowns",
+          "raw" : "18",
+          "unit" : ""
+        },
+        {
+          "failed" : false,
+          "id" : "media_errors",
+          "name" : "Media \/ Data Integrity Errors",
+          "raw" : "0",
+          "unit" : ""
+        },
+        {
+          "failed" : false,
+          "id" : "num_err_log_entries",
+          "name" : "Error Information Log Entries",
+          "raw" : "0",
+          "unit" : ""
+        },
+        {
+          "failed" : false,
+          "id" : "read_bytes",
+          "name" : "Host Reads",
+          "raw" : "5289647104000",
+          "unit" : "bytes"
+        },
+        {
+          "failed" : false,
+          "id" : "write_bytes",
+          "name" : "Host Writes",
+          "raw" : "7615484416000",
+          "unit" : "bytes"
+        }
+      ],
+      "model" : "APPLE SSD AP2048Z",
+      "online" : true,
+      "protocolVersion" : "NVMe <1.2",
+      "raw" : "{\"redacted\":true}",
+      "reasons" : [
+        "Device SMART overall assessment passed; this is not a guarantee against failure"
+      ],
+      "sampledAt" : "2026-10-13T08:15:11Z",
+      "smartAccess" : "available",
+      "smartRaw" : "{\"redacted\":true}",
+      "smartStatus" : "Verified",
+      "volumes" : [
+        {
+          "filesystem" : "Apple_APFS_ISC",
+          "id" : "Volume-1",
+          "mount" : "redacted",
+          "name" : "Volume-1",
+          "shared" : false,
+          "total" : 576716800
+        },
+        {
+          "filesystem" : "Apple_APFS",
+          "id" : "Volume-2",
+          "mount" : "redacted",
+          "name" : "Volume-2",
+          "shared" : false,
+          "total" : 1995165736960
+        },
+        {
+          "filesystem" : "Apple_APFS_Recovery",
+          "id" : "Volume-3",
+          "mount" : "redacted",
+          "name" : "Volume-3",
+          "shared" : false,
+          "total" : 5368664064
+        },
+        {
+          "filesystem" : "APFS",
+          "free" : 555003904,
+          "id" : "Volume-4",
+          "mount" : "redacted",
+          "name" : "Volume-4",
+          "shared" : true,
+          "total" : 576716800,
+          "used" : 6213632
+        },
+        {
+          "filesystem" : "APFS",
+          "free" : 555003904,
+          "id" : "Volume-5",
+          "mount" : "redacted",
+          "name" : "Volume-5",
+          "shared" : true,
+          "total" : 576716800,
+          "used" : 6311936
+        },
+        {
+          "filesystem" : "APFS",
+          "free" : 555003904,
+          "id" : "Volume-6",
+          "mount" : "redacted",
+          "name" : "Volume-6",
+          "shared" : true,
+          "total" : 576716800,
+          "used" : 4165632
+        },
+        {
+          "filesystem" : "APFS",
+          "free" : 555003904,
+          "id" : "Volume-7",
+          "mount" : "redacted",
+          "name" : "Volume-7",
+          "shared" : true,
+          "total" : 576716800,
+          "used" : 20480
+        },
+        {
+          "filesystem" : "APFS",
+          "free" : 3970625536,
+          "id" : "Volume-8",
+          "mount" : "redacted",
+          "name" : "Volume-8",
+          "shared" : true,
+          "total" : 5368664064,
+          "used" : 1375387648
+        },
+        {
+          "filesystem" : "APFS",
+          "free" : 3970625536,
+          "id" : "Volume-9",
+          "mount" : "redacted",
+          "name" : "Volume-9",
+          "shared" : true,
+          "total" : 5368664064,
+          "used" : 2908160
+        },
+        {
+          "filesystem" : "APFS",
+          "free" : 1836082323456,
+          "id" : "Volume-10",
+          "mount" : "redacted",
+          "name" : "Volume-10",
+          "shared" : true,
+          "total" : 1995165736960,
+          "used" : 13659480064
+        },
+        {
+          "filesystem" : "APFS",
+          "free" : 1836082319360,
+          "id" : "Volume-11",
+          "mount" : "redacted",
+          "name" : "Volume-11",
+          "shared" : true,
+          "total" : 1995165736960,
+          "used" : 13659480064
+        },
+        {
+          "filesystem" : "APFS",
+          "free" : 1836082315264,
+          "id" : "Volume-12",
+          "mount" : "redacted",
+          "name" : "Volume-12",
+          "shared" : true,
+          "total" : 1995165736960,
+          "used" : 11460280320
+        },
+        {
+          "filesystem" : "APFS",
+          "free" : 1836082311168,
+          "id" : "Volume-13",
+          "mount" : "redacted",
+          "name" : "Volume-13",
+          "shared" : true,
+          "total" : 1995165736960,
+          "used" : 2009186304
+        },
+        {
+          "filesystem" : "APFS",
+          "free" : 1836082307072,
+          "id" : "Volume-14",
+          "mount" : "redacted",
+          "name" : "Volume-14",
+          "shared" : true,
+          "total" : 1995165736960,
+          "used" : 24367104
+        },
+        {
+          "filesystem" : "APFS",
+          "free" : 1836082302976,
+          "id" : "Volume-15",
+          "mount" : "redacted",
+          "name" : "Volume-15",
+          "shared" : true,
+          "total" : 1995165736960,
+          "used" : 131629555712
+        },
+        {
+          "filesystem" : "APFS",
+          "free" : 1836082298880,
+          "id" : "Volume-16",
+          "mount" : "redacted",
+          "name" : "Volume-16",
+          "shared" : true,
+          "total" : 1995165736960,
+          "used" : 20480
+        }
+      ]
+    },
+    {
+      "bus" : "USB",
+      "capacity" : 2048408248320,
+      "device" : "redacted",
+      "diagnostics" : [
+        "Raw payload and diagnostic text omitted for privacy"
+      ],
+      "features" : [
+
+      ],
+      "firmware" : "1.01",
+      "health" : "unknown",
+      "id" : "Disk-2",
+      "identityReliable" : true,
+      "internalDisk" : false,
+      "kind" : "SSD",
+      "manufacturer" : "TUF",
+      "metrics" : [
+
+      ],
+      "model" : "Gaming A2",
+      "online" : true,
+      "raw" : "{\"redacted\":true}",
+      "reasons" : [
+        "USB SMART unavailable through current macOS access path"
+      ],
+      "sampledAt" : "2026-10-13T08:15:11Z",
+      "smartAccess" : "usbUnavailable",
+      "smartRaw" : "{\"redacted\":true}",
+      "smartStatus" : "Not Supported",
+      "speed" : "10 Gb\/s",
+      "volumes" : [
+        {
+          "filesystem" : "Microsoft Reserved",
+          "id" : "Volume-1",
+          "mount" : "redacted",
+          "name" : "Volume-1",
+          "shared" : false,
+          "total" : 16759808
+        },
+        {
+          "filesystem" : "ExFAT",
+          "free" : 2048310902784,
+          "id" : "Volume-2",
+          "mount" : "redacted",
+          "name" : "Volume-2",
+          "shared" : false,
+          "total" : 2048326238208,
+          "used" : 15335424
+        }
+      ]
+    }
+  ],
+  "generated" : "2026-10-13T08:15:11Z",
+  "history" : [
+    {
+      "date" : "2026-10-13T08:15:11Z",
+      "diskID" : "Disk-1",
+      "errors" : 0,
+      "health" : "normal",
+      "id" : "D626E235-6D48-41C7-9698-B747A720E8AA",
+      "metrics" : [
+        {
+          "failed" : false,
+          "id" : "critical_warning",
+          "name" : "Critical Warning",
+          "raw" : "0",
+          "unit" : ""
+        },
+        {
+          "failed" : false,
+          "id" : "temperature",
+          "name" : "Temperature",
+          "raw" : "37",
+          "unit" : "°C"
+        },
+        {
+          "failed" : false,
+          "id" : "available_spare",
+          "name" : "Available Spare",
+          "raw" : "100",
+          "unit" : "%"
+        },
+        {
+          "failed" : false,
+          "id" : "available_spare_threshold",
+          "name" : "Spare Threshold",
+          "raw" : "99",
+          "unit" : "%"
+        },
+        {
+          "failed" : false,
+          "id" : "percentage_used",
+          "name" : "Percentage Used",
+          "raw" : "0",
+          "unit" : "%"
+        },
+        {
+          "failed" : false,
+          "id" : "data_units_read",
+          "name" : "Data Units Read",
+          "raw" : "10331342",
+          "unit" : ""
+        },
+        {
+          "failed" : false,
+          "id" : "data_units_written",
+          "name" : "Data Units Written",
+          "raw" : "14873993",
+          "unit" : ""
+        },
+        {
+          "failed" : false,
+          "id" : "host_reads",
+          "name" : "Host Read Commands",
+          "raw" : "251103535",
+          "unit" : ""
+        },
+        {
+          "failed" : false,
+          "id" : "host_writes",
+          "name" : "Host Write Commands",
+          "raw" : "324324052",
+          "unit" : ""
+        },
+        {
+          "failed" : false,
+          "id" : "controller_busy_time",
+          "name" : "Controller Busy Time",
+          "raw" : "0",
+          "unit" : "min"
+        },
+        {
+          "failed" : false,
+          "id" : "power_cycles",
+          "name" : "Power Cycles",
+          "raw" : "280",
+          "unit" : ""
+        },
+        {
+          "failed" : false,
+          "id" : "power_on_hours",
+          "name" : "Power On Hours",
+          "raw" : "67",
+          "unit" : "h"
+        },
+        {
+          "failed" : false,
+          "id" : "unsafe_shutdowns",
+          "name" : "Unsafe Shutdowns",
+          "raw" : "18",
+          "unit" : ""
+        },
+        {
+          "failed" : false,
+          "id" : "media_errors",
+          "name" : "Media \/ Data Integrity Errors",
+          "raw" : "0",
+          "unit" : ""
+        },
+        {
+          "failed" : false,
+          "id" : "num_err_log_entries",
+          "name" : "Error Information Log Entries",
+          "raw" : "0",
+          "unit" : ""
+        },
+        {
+          "failed" : false,
+          "id" : "read_bytes",
+          "name" : "Host Reads",
+          "raw" : "5289647104000",
+          "unit" : "bytes"
+        },
+        {
+          "failed" : false,
+          "id" : "write_bytes",
+          "name" : "Host Writes",
+          "raw" : "7615484416000",
+          "unit" : "bytes"
+        }
+      ],
+      "readBytes" : 5289647104000,
+      "temperature" : 37,
+      "wear" : 0,
+      "writeBytes" : 7615484416000
+    },
+    {
+      "date" : "2026-10-13T08:15:11Z",
+      "diskID" : "Disk-2",
+      "health" : "unknown",
+      "id" : "332DA5F0-D0B2-4DE6-8234-B23884C9F31E",
+      "metrics" : [
+
+      ]
+    }
+  ],
+  "redacted" : true
+}

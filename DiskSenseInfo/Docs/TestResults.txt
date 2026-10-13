@@ -1,0 +1,56 @@
+PASS: NVMe data units are 512000 bytes
+PASS: Large counters preserve string precision
+PASS: Large counters never truncate into hexadecimal
+PASS: Passing overall assessment
+PASS: NVMe critical warning overrides passed status
+PASS: Missing SMART is unknown
+PASS: Normal temperature alone cannot establish health
+PASS: Spare below device threshold is dangerous
+PASS: Pending sectors cause caution
+PASS: Vendor ATA IDs do not invent wear percentage
+PASS: Normalized threshold failure
+PASS: Zero threshold does not mean failure
+PASS: Permission denial retains actionable diagnostic
+PASS: Log failure does not discard readable health data
+PASS: Malformed JSON rejected
+PASS: Physical disk maps to APFS volumes without disk1/disk10 prefix collision
+PASS: Redaction covers raw payload, volumes, diagnostics, identity and history
+PASS: CSV formula injection neutralized
+PASS: First alert allowed
+PASS: Repeated alert suppressed
+PASS: Distinct severe condition allowed
+PASS: Alert after cooldown allowed
+PASS: History roundtrip and retention pruning
+PASS: Corrupt history not silently accepted
+PASS: Subprocess timeout enforced
+PASS: Subprocess cancellation enforced
+PASS: Arguments are literal, never shell-evaluated
+PASS: Device renumbering does not duplicate physical disk
+PASS: Hot unplug keeps historical sample but marks health unknown
+PASS: Reused BSD node cannot silently inherit previous drive health
+PASS: Sleep blocks collection even for a forced request
+PASS: Wake allows overdue internal sample
+PASS: External HDD automatic polling skipped by default
+PASS: Explicit refresh can sample an external HDD
+PASS: Nonfinite metrics cannot crash temperature conversion
+PASS: Notification cooldown survives persistence
+PASS: ATA test allowed only with explicit capability
+PASS: Offline disk cannot run test
+PASS: NVMe test disabled despite capability because Darwin backend cannot send it
+PASS: Self-test command is strictly allowlisted
+PASS: Standard ATA Device Statistics endurance is supported without vendor guessing
+PASS: ATA sector bytes use logical sector size and ignore invalid statistics
+PASS: Apple vendor ID and reported legacy NVMe version preserved
+PASS: Crucial PCI identity and protocol version parsed separately
+PASS: Unknown vendor retains factual code without guessed manufacturer
+PASS: SATA version cannot masquerade as negotiated speed
+PASS: Nested NVMe profile extracts actual rate/lane count and leaves absent rate unknown
+PASS: Empty IOKit vendor cannot suppress the PCI fallback
+PASS: USB speed matches physical location not similar product or parent bus
+PASS: USB vendor mismatch rejected
+PASS: Legacy USB report preserves up-to qualification
+PASS: USB unsupported path is distinct from disk failure
+PASS: USB permission denial is not mislabeled bridge limitation
+PASS: Partial SMART remains available despite one log failure
+PASS: Reconnection cannot inherit offline explanation or stale SMART health
+55 tests passed

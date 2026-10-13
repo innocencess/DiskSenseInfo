@@ -1,0 +1,14 @@
+Build: ./build.sh --dmg
+Deployment target: macOS 13.0
+Architectures: arm64 + x86_64
+Compiler: Apple Swift 6.4 (swift-version 5)
+SDK: macOS 27.0 Command Line Tools
+Signature: ad-hoc, NOT Developer ID, NOT notarized
+Xcode: unavailable, .xcodeproj syntax checked only
+
+Warnings:
+- SDK contains no x86_64 libswiftCompatibilityPacks.a slice. Link succeeds; both binary slices passed startup checks on current OS. Older macOS not validated.
+- hdiutil create deprecation warning from current OS; image checksum verification passes.
+- onChange(of:perform:) retained for deployment to macOS 13; newer overload requires macOS 14.
+
+- Current Charts SDK emitted an AxisValueLabel anchor warning during offscreen rendering. History view rendered; interactive chart behavior remains to be tested.

@@ -1,0 +1,6 @@
+ld: warning: ignoring file '/Library/Developer/CommandLineTools/usr/lib/swift/macosx/libswiftCompatibilityPacks.a': fat file missing arch 'x86_64', file has 'arm64,arm64e'
+ld: warning: ignoring file '/Library/Developer/CommandLineTools/usr/lib/swift/macosx/libswiftCompatibilityPacks.a': fat file missing arch 'x86_64', file has 'arm64,arm64e'
+dist/DiskSenseInfo.app/Contents/Resources/smartctl: replacing existing signature
+dist/DiskSenseInfo.app: replacing existing signature
+created: /Users/innocences/Documents/Codex/2026-10-13/new-chat-2/outputs/DiskSenseInfo/dist/DiskSenseInfo.dmghdiutil: WARNING: 'hdiutil create -volname -format ...' is deprecated. Please use 'diskutil image create from/blank --volumeName --format ...' instead.
+
