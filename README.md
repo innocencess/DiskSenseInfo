@@ -4,7 +4,7 @@
 
 <img src="DiskSenseInfo/Artwork/AppIcon.png" width="96" alt="DiskSenseInfo icon">
 
-免費、開源的 macOS 磁碟健康監控工具，原名 DiskPulse。提供 SMART／NVMe 診斷、溫度與耗損監控、歷史圖表、選單列監控及報告匯出。介面支援繁體中文與英文。
+免費、開源的 macOS 磁碟健康監控工具。提供 SMART／NVMe 診斷、溫度與耗損監控、歷史圖表、選單列監控及報告匯出。介面支援繁體中文與英文。
 
 原生 macOS 磁碟健康監控，Swift / SwiftUI，macOS 13 以上。
 
