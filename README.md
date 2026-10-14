@@ -68,7 +68,7 @@ cd DiskSenseInfo
 
 ## 支持開發
 
-側邊欄底部的「請我喝杯咖啡」按鈕，會以預設瀏覽器開啟 https://buymeacoffee.com/kkrlife。
+側邊欄底部的「請我喝杯咖啡」按鈕，會以預設瀏覽器開啟 https://buymeacoffee.com/kkrlife
 
 0.1.4 USB 速度與 SMART 限制說明：[真實外接盒畫面](DiskSenseInfo/Docs/USBPreview.png)。
 
